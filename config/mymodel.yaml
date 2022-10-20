@@ -1,0 +1,17 @@
+seed: 7
+epochs: 250
+batch_size: 64
+img_size: 128
+
+train_path: './data/Food_dataset/train'
+valid_path: './data/Food_dataset/val'
+test_path: './data/Food_dataset/val'
+
+save_path: './saved/models'
+learning_rate: 0.001
+nclasses: 100
+dim: 1024
+depth: 7
+kernel: 3
+patch: 3
+cutmix_prob: 0.5
